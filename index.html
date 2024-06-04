@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="todo.css">
+	<title>To-Do List</title>
+</head>
+<body>
+    
+   
+    <div class="toDoContainer"> <!--This div is a section for the container where tasks will be types in. class so it can be styled and visible in css--> 
+        <h1>Complete Tasks</h1>  <!--Text to show where tasks are placed-->
+        <h2>Refresh Page to Clear Tasks</h2>
+        <form id="user-form"><!--PLace for holding user input and button to add tasks to list, little confused on this??-->
+            <input type="text" id="user-input" required placeholder="Enter Your Task Here"> <!--Textbox for tasks to be typed in-->
+            <button type="submit">Add</button> <!--Add button with a submit type to allow inputs to be outputed-->
+        </form>
+        <ul id="list"></ul>
+    </div> <!--Everything else will be inside this div to be aligned-->
+
+    <script src="toDoScript.js">
+    </script>
+
+</body>
+</html>
