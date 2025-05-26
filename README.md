@@ -1,5 +1,7 @@
-# ToDo
+# ToDo App
 
-## Gives the user a designated spot to enter tasks
+The Todo-App is a task managing Web-Application to help its users to stay organized for their day to day activities.
 
-### For all uses; short-term (Day-by-day) or long-term (weeks or further in advance)
+The Todo-App can be used for multiple purposes such as shopping lists, taking notes or planning an event.
+
+Check out the project here
